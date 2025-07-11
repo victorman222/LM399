@@ -7490,7 +7490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_PLUS SOIC"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_W_soic_under"
 			(at 204.47 54.61 0)
 			(effects
 				(font
@@ -10232,7 +10232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_PLUS SOIC"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_W_soic_under"
 			(at 102.87 72.39 0)
 			(effects
 				(font
