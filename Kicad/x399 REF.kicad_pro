@@ -76,19 +76,7 @@
           ""
         ],
         [
-          "solder_mask_bridge|101631352|101106890|afeb7324-cc23-4dc5-9334-67a11d6c1e7b|a1e72407-ed60-44bd-be51-f83beb9f1dbb",
-          ""
-        ],
-        [
           "solder_mask_bridge|104778915|98942980|6222c5dd-da1f-414b-ab1b-8d2c58f50046|ac3ca835-789c-4b75-9500-fb71be7551d5",
-          ""
-        ],
-        [
-          "solder_mask_bridge|119291655|98953124|7a1be660-87e7-4ca0-a184-0cbd392a8b96|386ab09a-ec9a-4510-9249-73e6fcb4ce01",
-          ""
-        ],
-        [
-          "solder_mask_bridge|119313568|119769147|3d81b22b-5bd6-4b1f-870f-b55399f1b41c|1f80d60f-eddc-47bc-b283-7045970facf7",
           ""
         ],
         [
@@ -184,14 +172,14 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -233,7 +221,8 @@
         0.8,
         1.0,
         1.2,
-        1.5
+        1.5,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
