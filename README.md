@@ -1,5 +1,5 @@
 LM399/ADR1399 reference
-
+schematic rev. 0.3 board rev. 0.2
 
 <img src="Images/x399 REF schematic.png" width="1000">
 
