@@ -23,7 +23,7 @@ A 10 V voltage reference using LM399/ADR1399 IC.
 - General features:
   - Protected from input reverse polarity and overvoltage up to 60 V
   - Protected from output short circuit and backfeed up to 30 V 
-  - Extensive RLC filter on the input and linear regulator decrease power supply demands  
+  - Extensive RLC filter on the input and linear regulator relaxes power supply requirements  
   - Common mode filters featuring guard connection make reference resilient from common mode currents (EMI)
 - Precision features:
   - Uses bootstrap scheme where output opamp is powered by the output voltage, improving PSRR (DC PSRR 200nV/V without linear regulator)
@@ -34,14 +34,14 @@ A 10 V voltage reference using LM399/ADR1399 IC.
   - Trimpot is used in potentiometer (ratio) mode which has better TC and stability
   - Supports most trimpots with 100mil inline lead spacing, also supports SP5-35 fine/coarse potentiometer
   - Provides low impedance to both of the opamp inputs such that chopper amps can be used without extra current noise
-  - ADR1399 uses 10u/1R snubber that makes it more stable than usual 1u/5R (not that it impacts anything)
+  - ADR1399 uses 10u/1R snubber that makes it more stable than usual 1u/5R (stable here as in control theory, not PPMs)
  
 - Changes from REV A:
   - 6 layer board with inner layers for kelvin output connections
   - Changed location of LM399, so now all heat sources are on the left, moved other heat sources away from output
   - New trim scheme and new huge trimpot footprint
-  - Added 7815 regulator (why?)
-  - SMD pass transistor, heat managed to case through mounting hole and radiation
+  - Added 7815 regulator
+  - SMD pass transistor, heat disipated to case through mounting hole and radiation
   - Added circuit that turns off pass transistor periodically if output voltage is low to reset thyristor when backfeed event has ended
   - Increased output load resistor value, because the lm399 heater already provides enough minimal load
   - BOM optimization, decreased amount of different values
@@ -56,4 +56,3 @@ A 10 V voltage reference using LM399/ADR1399 IC.
   - Added two mounting holes, finally we can have 4 (although the case still comes with only two screws :/ )
   - The board is now very double sided load, most precision stuff is on the bottom
  
-
