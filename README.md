@@ -55,3 +55,5 @@ A 10 V voltage reference using LM399/ADR1399 IC.
   - Changed adr1399 snubber from 1u/5R to 10u/1R after doing some experiments with different cap values
   - Added two mounting holes, finally we can have 4 (although the case still comes with only two screws :/ )
   - The board is now very double sided load, most precision stuff is on the bottom
+ 
+
