@@ -37,7 +37,7 @@ A 10 V voltage reference using LM399/ADR1399 IC.
   - ADR1399 uses 10u/1R snubber that makes it more stable than usual 1u/5R (stable here as in control theory, not PPMs)
  
 - Changes from REV A:
-  - 6 layer board with inner layers for kelvin output connections
+  - 6 layer board with inner layers for Kelvin output connections
   - Changed location of LM399, so now all heat sources are on the left, moved other heat sources away from output
   - New trim scheme and new huge trimpot footprint
   - Added 7815 regulator
